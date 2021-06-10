@@ -1,0 +1,15 @@
+.pic{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgba(255, 102, 47, 0.576);
+    margin-inline: 30px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+

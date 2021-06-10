@@ -6,10 +6,9 @@ import './navigation.css';
 const Navigation = () => (
     <nav>
       <ul>
-        <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/'>Projects</NavLink></li>
-        <li><NavLink to='/'>Resume</NavLink></li>
-        <li><NavLink to='/'>Home</NavLink></li>
+        <p><NavLink to='/'>Home</NavLink></p>
+        <p><NavLink to='/'>Projects</NavLink></p>
+        <p><NavLink to='/'>Resume</NavLink></p>
       </ul>
     </nav>
   );

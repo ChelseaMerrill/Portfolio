@@ -6,22 +6,67 @@
     box-shadow: 10px 10px 5px rgb(9, 8, 8);
 }
 
+.intro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
 .header{
     display: flex;
     justify-content: center;
     padding: 20px;
     align-items: center;
-    background-color: rgba(121, 173, 207, 0.761);
+    background-color: rgba(121, 173, 207, 0.953);
+    margin-bottom: 0%;
+    overflow: hidden;
 }
 
 img{
-    box-shadow: black;
     box-shadow: 10px 10px 5px rgba(19, 17, 17, 0.597);
 }
 
 .calc{
     display: flex;
-    justify-content: space-evenly;
-    color:white;
-    
+    justify-content: center;
+    background-color: rgba(235, 218, 183, 0.844);
+    padding: 20px;
+    align-items: center;
+    box-shadow: 10px 10px 5px rgba(19, 17, 17, 0.844);
+    width: 70%;
+    margin: 200px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.calc p{
+    color: rgb(7, 58, 21);
+    margin-left: 15px;
+    font-size: 14pt;
+}
+
+.resume{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: tomato;
+    font-size: 52pt;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+h2{
+    color: tomato;
+    font-size: 32pt;
+    margin-top: 0pt;
+}
+h3{
+    color:tomato;
+    font-size: 20pt;
+}
+
+.home{
+    overflow: hidden;
+}
+

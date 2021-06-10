@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(254,223,47);
+    color: red;
+}
+
+li{
+    margin: 10px;
+    color: red;
+}

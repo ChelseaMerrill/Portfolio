@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     padding: 30px;
-    background-color: rgba(255, 102, 47, 0.576);
     margin-inline: 30px;
+    box-shadow: 10px 10px 5px rgb(9, 8, 8);
 }
 
 .header{
@@ -11,5 +11,17 @@
     justify-content: center;
     padding: 20px;
     align-items: center;
+    background-color: rgba(121, 173, 207, 0.761);
 }
 
+img{
+    box-shadow: black;
+    box-shadow: 10px 10px 5px rgba(19, 17, 17, 0.597);
+}
+
+.calc{
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    
+}

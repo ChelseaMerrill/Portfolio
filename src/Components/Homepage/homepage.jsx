@@ -46,7 +46,7 @@ class Homepage extends React.Component{
                     </div>
 
                     <div className='notNetflix'>
-
+                        <p>Using React App</p>
                     </div>
 
                 </div>

@@ -66,6 +66,10 @@ img{
     font-size: 12pt;
 }
 
+.bookIcon{
+    width: 3mm;
+}
+
 .resume{
     display: flex;
     justify-content: center;
@@ -97,10 +101,23 @@ h3{
 }
 
 .projects{
-    background-color: #92A3A2;
+    background-color: #92a3a2ce;
     margin-right: 5%;
     margin-left: 5%;
     text-align: center;
-    margin-top: 10mm;
+    margin-top: 20mm;
 }
 
+.aboutMe{
+    background-color: #92a3a2ce;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 20mm;
+}
+
+.aboutMe p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #423E42;
+    font-size: 12pt;
+}

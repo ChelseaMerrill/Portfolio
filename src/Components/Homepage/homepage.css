@@ -31,20 +31,39 @@ img{
     justify-content: center;
     padding: 20px;
     align-items: center;
-    box-shadow: 10px 10px 5px rgba(19, 17, 17, 0.844);
-    width: 70%;
-    margin: 200px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.calcInfo{
-    background-color: #BABCBF;
-}
 
 .calc p{
     color: #423E42;
-    margin-left: 15px;
-    font-size: 14pt;
+    font-size: 12pt;
+}
+
+.notNetflix{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.notNetflix p{
+    color: #423E42;
+    font-size: 12pt;
+}
+
+.bookBelles{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bookBelles p{
+    color: #423E42;
+    font-size: 12pt;
 }
 
 .resume{
@@ -75,5 +94,13 @@ h3{
 
 .name{
     width: 30%;  
+}
+
+.projects{
+    background-color: #92A3A2;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 10mm;
 }
 

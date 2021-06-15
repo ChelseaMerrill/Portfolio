@@ -4,7 +4,7 @@ import Typist from 'react-typist';
 
 import ProfilePic from './profile.jpg';
 import Resume from './resume.jpg';
-import Calc from './calc_project.jpg';
+import { HiOutlineCalculator } from "react-icons/hi";
 
 
 
@@ -22,6 +22,7 @@ class Homepage extends React.Component{
 
                  <div className='intro'>
                     <img src={ProfilePic} />
+                    HiOutlineCalculator
                     <div className='name'>
                         <Typist>
                             <h1>Hello, <Typist.Delay ms={1000} /></h1>
@@ -41,7 +42,7 @@ class Homepage extends React.Component{
                 <div className= 'projects'>
                     <div className='calc'>
                         <button>
-                        <img src={Calc} height='100px' width='200px'/>
+                            <HiOutlineCalculator/>
                         </button>
                             <div className='calcInfo'>
                             <p>Using DOM manipulation we were instructed to design a functioning mathmatical calculator without using the built in method.  Due to this being a basic, four function calculator, I wanted to design my calculator in a way that was attractive to the users age group.  I drew my own backgrounds and image to give my calculator the look of a crayola box.  I created my own curser as a blank crayon and then designed a paint pallet so that the user could change the color of te curser which, in turn, changes the color of the screen text </p>

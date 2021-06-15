@@ -1,8 +1,8 @@
 ul{
     display: flex;
     justify-content: flex-end;
-    background-color: rgba(254, 223, 47, 0.905);
-    color: red;
+    background-color: #423E42;
+    color: #BABCBF;
     margin-top: 0%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18pt;
@@ -10,7 +10,7 @@ ul{
 
 p{
     margin: 20px;
-    color: red;
+    color: #BABCBF;
     margin-right: 30px;
 }
  

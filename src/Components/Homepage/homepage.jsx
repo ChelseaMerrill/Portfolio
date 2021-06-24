@@ -24,7 +24,7 @@ class Homepage extends React.Component{
                 </div>
 
                 <div className='body'>
-                    <div className='name'>
+                    <div className='Typist'>
                         <Typist>
                             <h1>Hello, <Typist.Delay ms={1000} /></h1>
                             <h2>I'm</h2>

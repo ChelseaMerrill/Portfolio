@@ -12,7 +12,9 @@
 
 
 ## TASKS
-* [ ] create sticky side nav
+* [X] create ReactApp
+* [X] create repo
+* [ ] sticky side nav
 * [ ] have single page
 * [ ] Landing Page
 * [ ] About Me

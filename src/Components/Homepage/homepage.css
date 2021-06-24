@@ -3,10 +3,7 @@
 .header{
     display: flex;
     justify-content: row;
-    padding: 20px;
-    align-items: center;
-    margin-bottom: 0%;
-    overflow: hidden;
+
 }
 
 img{
@@ -88,12 +85,12 @@ h3{
     overflow: hidden;
 }
 
-.name{
+.typist{
     width: 30%;  
 }
 
 .projects{
-    background-color: #92a3a2ce;
+
     margin-right: 5%;
     margin-left: 5%;
     text-align: center;
@@ -101,7 +98,6 @@ h3{
 }
 
 .aboutMe{
-    background-color: #92a3a2ce;
     margin-right: 5%;
     margin-left: 5%;
     text-align: center;

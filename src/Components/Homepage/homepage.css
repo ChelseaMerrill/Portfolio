@@ -1,21 +1,8 @@
-.pic{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    margin-inline: 30px;
-    box-shadow: 10px 10px 5px rgb(9, 8, 8);
-}
 
-.intro{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    justify-content: center;
-}
 
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: row;
     padding: 20px;
     align-items: center;
     margin-bottom: 0%;
@@ -93,9 +80,12 @@ h3{
 }
 
 .home{
-    overflow: hidden;
     display: flex;
     justify-content: column;
+}
+
+.body{
+    overflow: hidden;
 }
 
 .name{

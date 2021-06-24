@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-        <div className='backgroundimage' style={{ backgroundImage: "url(/background.jpg)" }}>
+        <div>
           <Switch>
             <Route exact path='/' component={Homepage}/>
             <Route exact path='/navigation' component={Navigation}/>

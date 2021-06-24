@@ -94,6 +94,8 @@ h3{
 
 .home{
     overflow: hidden;
+    display: flex;
+    justify-content: column;
 }
 
 .name{

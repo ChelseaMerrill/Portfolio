@@ -6,7 +6,13 @@
  }
 
  .App{
-   background-color: cornsilk;
+   text-align: center;
+
+ }
+
+ a{
+   text-decoration: none;
+   color: inherit;
  }
 
  /* Tundora

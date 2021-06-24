@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Typist from 'react-typist';
+// import Typist from 'react-typist';
 
-import ProfilePic from './profile.jpg';
+// import ProfilePic from './profile.jpg';
 import Resume from './resume.jpg';
 import { HiOutlineCalculator } from "react-icons/hi";
 import { HiOutlineTag } from "react-icons/hi";

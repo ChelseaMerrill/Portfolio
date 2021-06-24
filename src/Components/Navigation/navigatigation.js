@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import './navigation.css';
 
 function Navigation(){
   return (
     <div className='navBar'>
-      <a href='/'> Home</a>
+      <Link to='/'> Home</Link>
       <a href='/about'>About Me</a>
       <a href='/'>Projects</a>
       <a href='/'>Resume</a>

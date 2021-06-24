@@ -1,6 +1,6 @@
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Homepage from './Components/Homepage/homepage';
-import Navigation from './Components/Navigation/navigation.component';
+import Navigation from './Components/Navigation/navigatigation';
 import About from './Components/About Me/About';
 import './App.css';
 

@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-// import Navigation from '../Navigation/navigation.component';
 import Typist from 'react-typist';
 
 import ProfilePic from './profile.jpg';
@@ -14,17 +13,16 @@ import { IconContext } from "react-icons";
 
 import './homepage.css';
 
-class Homepage extends React.Component{
-    render(){
+function Homepage (){
         return(
             <div className='home'>
-                <div className='header' style={{ backgroundImage: "url(/succulants.jpg)" }}>
+                {/* <div className='header' style={{ backgroundImage: "url(/succulants.jpg)" }}>
                     <img src={ProfilePic} />
                     <h1>Chelsea Merrill</h1>
-                </div>
+                </div> */}
 
                 <div className='body'>
-                    <div className='Typist'>
+                    {/* <div className='Typist'>
                         <Typist>
                             <h1>Hello, <Typist.Delay ms={1000} /></h1>
                             <h2>I'm</h2>
@@ -37,7 +35,7 @@ class Homepage extends React.Component{
                             <Typist.Delay ms={2000}/>
                             <h1>Chelsea</h1>
                         </Typist>
-                    </div>
+                    </div> */}
 
                     <div className='aboutMe'>
                         <p>Welcome! I am Chelsea Merrill. I am an ambitious and creative developer with a passion for design and mastery of techniques. I have a Bachelor’s Degree for the State University of New York at Albany in Communications and Business with a focus in Business Law. I spent the first five years of my professional life working in the legal industry.  In 2021, I rerouted my career objectives and enrolled myself in Nebula Academy’s Software Engineering Bootcamp. I graduated from my program with an offer to continue my education working as a Fellow for Nebula Academy. My front-end skills are highlighted in the uniqueness and originality of my projects. Connect with me to learn more.</p>
@@ -85,7 +83,6 @@ class Homepage extends React.Component{
                 </div>
             </div>
         )
-    }
 }
 
 

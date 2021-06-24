@@ -3,15 +3,17 @@ import { NavLink } from 'react-router-dom';
 
 import './navigation.css';
 
-const Navigation = () => (
-    <nav>
-      <ul>
-        <p><NavLink to='/'>About Me</NavLink></p>
-        <p><NavLink to='/'>Projects</NavLink></p>
-        <p><NavLink to='/'>Resume</NavLink></p>
-      </ul>
-    </nav>
-  );
+function Navigation(){
+  return (
+    <div className='navBar'>
+      <a href='/'> Home</a>
+      <a href='/about'>About Me</a>
+      <a href='/'>Projects</a>
+      <a href='/'>Resume</a>
+      <a href='/'>Contact</a>
+    </div>
+  )
+};
 
 
 

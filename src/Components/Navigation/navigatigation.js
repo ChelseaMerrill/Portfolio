@@ -7,10 +7,10 @@ function Navigation(){
   return (
     <div className='navBar'>
       <Link to='/'> Home</Link>
-      <a href='/about'>About Me</a>
-      <a href='/'>Projects</a>
-      <a href='/'>Resume</a>
-      <a href='/'>Contact</a>
+      <Link to='/about'>About Me</Link>
+      <Link to='/projects'>Projects</Link>
+      <Link to='/resume'>Resume</Link>
+      <Link to='/'>Contact</Link>
     </div>
   )
 };

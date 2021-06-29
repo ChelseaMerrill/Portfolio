@@ -4,6 +4,7 @@ import Navigation from './Components/Navigation/navigatigation';
 import About from './Components/About Me/About';
 import Projects from './Components/Projects/projects';
 import Res from './Components/Resume/resume';
+import Landing from './Components/LandingPage/landingpage';
 
 import './App.css';
 
@@ -13,7 +14,7 @@ function App() {
             <Router>
               <Navigation/>
                   <Switch>
-                    <Route exact path='/' component={Homepage}/>
+                    <Route exact path='/' component={Landing}/>
                     <Route exact path='/about' component={About}/>
                     <Route exact path='/projects' component={Projects}/>
                     <Route exact path='./resume' component={Res}/>

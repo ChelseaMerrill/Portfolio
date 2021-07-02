@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Typist from 'react-typist';
 
+import './landingpage.css';
 
 function Landing (){
         return(
@@ -16,7 +17,7 @@ function Landing (){
                     <Typist.Delay ms={2000}/>
                     <h3>more than your average Software Engineer</h3>
                     <Typist.Delay ms={2000}/>
-                    <h1>Chelsea</h1>
+                    <h4>Chelsea</h4>
                 </Typist>
             </div>
         )

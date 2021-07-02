@@ -4,6 +4,7 @@ import Projects from '../Projects/projects';
 import Res from '../Resume/resume';
 import Landing from '../LandingPage/landingpage';
 
+import './homepage.css'; 
 
 function Homepage (){
         return(

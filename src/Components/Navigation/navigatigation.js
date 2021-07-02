@@ -6,7 +6,7 @@ import './navigation.css';
 
 function Navigation(){
   return (
-    <div className='outterNavBar' style={{ backgroundImage: "url(/succulants.jpg)" }}>
+    <div className='outterNavBar' style={{ backgroundImage: "url(/flowerBackground.jpg)" }}>
       <div className='navBar'>
         <img src={ProfilePic}/>
         <Link to='/'> Home</Link>

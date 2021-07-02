@@ -15,7 +15,9 @@
    color: inherit;
  } 
 
-
+ body{
+   padding-left: 300px;
+ }
 
  /* Dark Gray
  #423E42

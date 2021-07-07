@@ -4,6 +4,8 @@ import { HiOutlineTag } from "react-icons/hi";
 import { HiOutlineBookOpen } from "react-icons/hi";
 import { IconContext } from "react-icons";
 
+import '../../App.css';
+
 function Projects(){
     return (
         <div className= 'projects'>

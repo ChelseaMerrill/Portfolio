@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Resume from './resume.jpg';
 
 function Res(){

@@ -87,3 +87,13 @@
   color:#C62240;
 }
 
+.innerProject{
+  display:flex;
+  justify-content: center;
+}
+
+.innerProject img{
+  width: 250px;
+  height: auto;
+}
+

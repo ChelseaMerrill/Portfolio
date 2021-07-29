@@ -9,6 +9,8 @@ import './homepage.css';
 function Homepage (){
         return(
             <div className='homepage'>
+                <div class="stars"></div>   
+                <div class="twinkling"></div>
                 <Landing/>
                 <About/>
                 <Projects/>

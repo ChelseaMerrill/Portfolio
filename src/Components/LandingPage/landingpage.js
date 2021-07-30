@@ -7,8 +7,7 @@ function Landing (){
         return(
             <div className='typist'>
                 <Typist>
-                    <h1>Hello, <Typist.Delay ms={1000} /></h1>
-                            
+                    <h1>Hello, <Typist.Delay ms={1000} /></h1>         
                     <h2>I'm</h2>
                     <Typist.Delay ms={2000}/>
                     <h3>a creator</h3>

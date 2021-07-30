@@ -21,7 +21,7 @@ class Projects extends Component {
                     name: 'Not Netflix',
                     description: 'Using React App and a movie based API I crated a site that mimiked the concept of Netflix.  Being as this was a project in which several people were completing the same project I wanted to come up with a project that really contrasted the redunent Netflix look that was going to be presented several times.  I decided to brand my site on what I belived Blockbuster would have looked like if streaming platforms existed during the years that Blockbuster was at its prime.  To do this i focused on design aethetics that haad an early 2000s vibe and imbedded Youtube videos to act as a priview ',
                     image: Blockbuster,
-                    link: 'http://google.com',
+                    link: 'https://master.d21wx1wh1dvadx.amplifyapp.com ',
                 },
                 {
                     name: 'The Book Belles',

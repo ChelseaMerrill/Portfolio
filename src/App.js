@@ -1,5 +1,5 @@
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import Homepage from './Components/Homepage/homepage';
+import FullPage from './Components/FullPage/fullpage';
 import Navigation from './Components/Navigation/navigatigation';
 import About from './Components/About Me/About';
 import Projects from './Components/Projects/projects';
@@ -14,7 +14,7 @@ function App() {
             <Router>
               <Navigation/>
                   <Switch>
-                    <Route exact path='/' component={Homepage}/>
+                    <Route exact path='/' component={FullPage}/>
                     <Route exact path='/landing' component={Landing}/>
                     <Route exact path='/about' component={About}/>
                     <Route exact path='/projects' component={Projects}/>

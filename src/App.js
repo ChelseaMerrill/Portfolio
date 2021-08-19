@@ -4,7 +4,7 @@ import Navigation from './Components/Navigation/navigatigation';
 import About from './Components/About Me/About';
 import Projects from './Components/Projects/projects';
 import Res from './Components/Resume/resume';
-import Landing from './Components/LandingPage/landingpage';
+import Landing from './Components/LandingPage/landingPage';
 
 import './App.css';
 

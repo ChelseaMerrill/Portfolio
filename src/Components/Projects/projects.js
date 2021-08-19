@@ -29,6 +29,18 @@ class Projects extends Component {
                     image: Book,
                     link: 'http://thebookbelles.com',
                 },
+                {
+                    name: 'COTA',
+                    description: 'A bootcamp group project that was completed for a local non-profit.  My contributions for this React App project included creating a page that rendered the most recent news and announcement about the organization, creating a calader component that was editable for the organization but displayed only as a view for the page users, and crafting a carosel for the homepage that highlighted the key pages of the site and linked out to them.  I also used contributed graphically to this project my drawing and designing custom buttons and icons that were used throught the site',
+                    image: Book,
+                    link: null,
+                },
+                {
+                    name: 'We Connect the Dots',
+                    description: 'I was the Team Lead on this project.  I oversaw a group of developers as we moved an existing website the used Square Space to a React App as well as created an entire database using AWS DynamoDB.  I created DevOps tasks for the team, headed all merges, aissted the developers in their tasks, as well as contributed to some front-end code.',
+                    image: Book,
+                    link: null,
+                },
             ]
         }
     }

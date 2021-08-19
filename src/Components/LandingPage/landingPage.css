@@ -1,0 +1,24 @@
+.typist{
+    color: #5F3B3E;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 20px;
+    height: 700px;
+  }
+  
+  .typist h1{
+    font-size: 52pt;
+  }
+  
+  .typist h4{
+    font-size: 72pt;
+    color:#C62240;
+  
+  }
+  
+  .typist h2{
+    font-size: 46pt;
+  }
+  
+  .typist h3{
+    font-size: 42pt;
+  }

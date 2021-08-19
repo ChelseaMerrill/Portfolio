@@ -1,7 +1,7 @@
 import React from 'react';
 import Typist from 'react-typist';
 
-import '../../App.css';
+import './landingPage.css';
 
 function Landing (){
         return(

@@ -26,6 +26,7 @@
     flex-direction: column;
     justify-content: space-around;
 
+    background-color: blue;
     position: fixed;
     top: 0;
     left: 0;

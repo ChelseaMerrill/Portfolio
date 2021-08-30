@@ -37,37 +37,4 @@
   color: #FD6F39;
 }
 
-.projects{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 16pt;
-  align-content: center;
-  line-height: 50px;
-  color:#5F3B3E;
-  padding-left: 70px;
-  padding-right: 70px;
-  align-items: center;
-}
-
-.projects h1{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 52pt;
-  font-weight: bold;
-  color: #FD6F39;
-}
-
-.projects h2{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 40pt;
-  color:#C62240;
-}
-
-.innerProject{
-  display:flex;
-  justify-content: center;
-}
-
-.innerProject img{
-  width: 250px;
-  height: auto;
-}
 

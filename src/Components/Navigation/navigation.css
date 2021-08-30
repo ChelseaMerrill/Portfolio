@@ -3,8 +3,9 @@
     flex-direction: column;
     justify-content: space-around;
 
-    color:#5F3B3E;
-    background-color: #edcf37c9;
+    
+    background-color: gray;
+    box-shadow: 4px 4px 4px rgb(29, 26, 26);
 
     width: 200px;
     height: 90vh;
@@ -15,8 +16,7 @@
 }
 
 .navBar img{
-    border-radius: 50%;
-    height: 150px;
+    height: 200px;
     width: 150px;
     margin-left: 25px;
 }
@@ -26,7 +26,7 @@
     flex-direction: column;
     justify-content: space-around;
 
-    background-color: blue;
+    background-color: #c6bb22;
     position: fixed;
     top: 0;
     left: 0;

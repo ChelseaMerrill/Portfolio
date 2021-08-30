@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ProfilePic from './profile.jpg';
+import ProfilePic from './astronaut.jpg';
 
 import './navigation.css';
 

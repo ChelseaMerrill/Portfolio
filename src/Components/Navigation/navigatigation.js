@@ -4,18 +4,18 @@ import ProfilePic from './astronaut.jpg';
 
 import './navigation.css';
 
-function Navigation(){
+function Navigation() {
   return (
-    <div className='outterNavBar'>
-      <div className='navBar'>
-        <img src={ProfilePic}/>
-        <Link to='/'> Home</Link>
-        <Link to='/about'>About Me</Link>
-        <Link to='/projects'>Projects</Link>
-        <Link to='/resume'>Resume</Link>
-        <Link to='/'>Contact</Link>
-      </div>
+    <div className='navBar'>
+      <img src={ProfilePic} />
+      <div className='navLinks'>
+        <Link to='/' className='navLink'> Home</Link>
+        <Link to='/about' className='navLink'>About</Link>
+        <Link to='/projects' className='navLink'>Projects</Link>
+        <Link to='/resume' className='navLink'>Resume</Link>
+        <Link to='/' className='navLink'>Contact</Link>
     </div>
+  </div >
   )
 };
 

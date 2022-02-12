@@ -1,36 +1,40 @@
 .navBar{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-
-    
-    background-color: gray;
+    justify-content: center;
+    background-color: rgb(14, 17, 17);
     box-shadow: 4px 4px 4px rgb(29, 26, 26);
-
-    width: 200px;
-    height: 90vh;
-
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18pt;
-
-}
-
-.navBar img{
-    height: 200px;
-    width: 150px;
-    margin-left: 25px;
-}
-
-.outterNavBar{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-    background-color: #c6bb22;
     position: fixed;
     top: 0;
     left: 0;
-
     width: 250px;
     height: 100vh;
 }
+.navBar img{
+    height: 200px;
+    width: 150px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70vh;
+    color: white;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    font-size: 1.7em;
+}
+
+.navLink:hover{
+    background-color: rgb(134, 134, 119);
+    transform: scaleX(1.2);
+    transition: transform .7s; 
+    text-shadow: 4px 4px 4px rgb(10, 10, 10);
+    font-size: 2em;
+}
+
+ 
+

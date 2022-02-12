@@ -1,12 +1,13 @@
 .typist{
-    color: #c6bb22;
+    color: white;
     line-height: 75px;
-    height: 800px;
-    max-width: 1200px;
+    background-color: rgba(0, 0, 0, 0.521);
+    margin-top: 80px;
+
   }
 
   .typist h1{
-    font-size: 68px;
+    font-size: 10em;
   }
   
   .typist h3{

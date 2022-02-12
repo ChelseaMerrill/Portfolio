@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
   }
+  .homepage{
+    max-width: 1200px;
+    margin: auto;
+  }
   header {
     background-color:rgba(33, 33, 33, 0.9);
     color:#ffffff;

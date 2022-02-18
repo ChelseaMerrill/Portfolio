@@ -15,12 +15,34 @@
 }
 
 .projectCard{
-  display: flex;
-  justify-content: center;
-  margin: 40px;
-}
-.projectInfo{
+  margin: 60px;
   border: 3px solid white;
+  background-color: transparent;
   border-radius: 7px;
   padding: 40px;
+}
+
+.projectCard h5{
+  font-size: 2.3em;
+}
+
+.projectCard:hover{
+  transition: transform .7s;
+  transform: scaleY(1.2);
+  margin-right: 60px;
+  box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px #0ff;
+}
+.projectLink{
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 7px;
+}
+.projectLink:hover{
+  background-color: rgb(199, 83, 199);
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px #fff;
+  transition: transform .7s;
 }

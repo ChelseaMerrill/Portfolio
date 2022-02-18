@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../AboutMe/About';
 import Projects from '../Projects/projects';
+import Contact from '../Contact/contact';
 import Res from '../Resume/resume';
 import Landing from '../LandingPage/landingPage';
 
@@ -14,6 +15,7 @@ function FullPage (){
                 <Landing/>
                 <About/>
                 <Projects/>
+                <Contact/>
                 <Res/>
             </div>
         )

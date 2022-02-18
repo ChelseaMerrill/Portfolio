@@ -48,7 +48,7 @@ class Projects extends Component {
     }
     render() {
         return (
-            <div className='page projects'>
+            <div className='page projects' id='project'>
                 <div className='projectsHeading'>
                     <h1>Projects</h1>
                 </div>

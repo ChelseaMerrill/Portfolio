@@ -1,0 +1,12 @@
+.contactHeading{
+    background-image: url(./image3.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    color: white;
+    font-size: 2em;
+}

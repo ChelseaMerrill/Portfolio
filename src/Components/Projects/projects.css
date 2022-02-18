@@ -6,7 +6,6 @@
   height: 400px;
   margin: auto;
   margin-bottom: 20px;
-  align-items: center;
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 
@@ -14,5 +13,14 @@
   color: white;
   font-size: 2em;
 }
-  
-  
+
+.projectCard{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+.projectInfo{
+  border: 3px solid white;
+  border-radius: 7px;
+  padding: 40px;
+}

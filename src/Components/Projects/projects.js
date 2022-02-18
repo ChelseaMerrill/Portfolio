@@ -21,12 +21,12 @@ class Projects extends Component {
                     // image: Blockbuster,
                     link: 'https://master.d21wx1wh1dvadx.amplifyapp.com ',
                 },
-                {
-                    name: 'The Book Belles',
-                    description: 'This was the first post-bootcamp independent project.  I was able to blend both my childhood passions and new found coding abilities to create my own book club website.  I used React App to showcase the book of the month selection, map through past monthly reads,  provide a selection of highly reomended reads, and and a backend so that a user can submit their own recomendations and signup to join the club',
-                    // image: Book,
-                    link: 'http://thebookbelles.com',
-                },
+                // {
+                //     name: 'The Book Belles',
+                //     description: 'This was the first post-bootcamp independent project.  I was able to blend both my childhood passions and new found coding abilities to create my own book club website.  I used React App to showcase the book of the month selection, map through past monthly reads,  provide a selection of highly reomended reads, and and a backend so that a user can submit their own recomendations and signup to join the club',
+                //     // image: Book,
+                //     link: 'http://thebookbelles.com',
+                // },
                 {
                     name: 'COTA',
                     description: 'A bootcamp group project that was completed for a local non-profit.  My contributions for this React App project included creating a page that rendered the most recent news and announcement about the organization, creating a calader component that was editable for the organization but displayed only as a view for the page users, and crafting a carosel for the homepage that highlighted the key pages of the site and linked out to them.  I also used contributed graphically to this project my drawing and designing custom buttons and icons that were used throught the site',
@@ -45,18 +45,19 @@ class Projects extends Component {
     render() {
         return (
             <div className='page projects'>
-                <h1 className='projectsHeading'>Projects</h1>
+                <div className='projectsHeading'>
+                    <h1>Projects</h1>
+                </div>
                 {this.state.projects.map((project) => (
-                    <div key={project.name}>
-                        <div className='projectTitle'>
-                            <h2>{project.name}</h2>
+                    <div key={project.name} className='projectCard'>
+                        <div className='projectImage'>
+                            <button target='blank' onClick={project.link}>Click</button>
                         </div>
-                        
-                        <div className='innerProject'>
-                            {/* <img src={project.image}/> */}
+                        <div className='projectInfo'>
+                            <h5>{project.name}</h5>
+                            <br/>
                             <p>{project.description}</p>
                         </div>
-                        <a href={project.link}> click here to see</a>
                     </div>
                 ))}
             </div>

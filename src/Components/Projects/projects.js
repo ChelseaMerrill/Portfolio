@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-// import Book from './bookbelles.jpg';
-// import Blockbuster from './blockbuster.jpg';
-// import Calculator from './jupiter.jpg';
+import './projects.css';
 
 
 import './projects.css';
@@ -46,8 +44,8 @@ class Projects extends Component {
     }
     render() {
         return (
-            <div className='projects'>
-                <h1>Projects</h1>
+            <div className='page projects'>
+                <h1 className='projectsHeading'>Projects</h1>
                 {this.state.projects.map((project) => (
                     <div key={project.name}>
                         <div className='projectTitle'>

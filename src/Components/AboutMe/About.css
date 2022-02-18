@@ -1,0 +1,15 @@
+.aboutMe{
+    color: white;
+    font-size: 2em;
+}
+.aboutMeHeading{
+    background-image: url(./image1.jpg);
+    background-size: cover;
+    padding: 20px;
+    width: 400px;
+    height: 370px;
+    margin: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}

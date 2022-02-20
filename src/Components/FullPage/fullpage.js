@@ -10,8 +10,8 @@ import './fullpage.css';
 function FullPage (){
         return(
             <div className='homepage'>
-                <div class="stars"></div>   
-                <div class="twinkling"></div>
+                <div className="stars"></div>   
+                <div className="twinkling"></div>
                 <Landing/>
                 <About/>
                 <Projects/>

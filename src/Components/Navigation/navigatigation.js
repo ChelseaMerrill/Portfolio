@@ -7,7 +7,7 @@ import './navigation.css';
 function Navigation() {
   return (
     <div className='navBar'>
-      <img src={ProfilePic} />
+      <img src={ProfilePic} alt=''/>
       <div className='navLinks'>
         <Link to='/' className='navLink'> Home</Link>
         <Link to='about' smooth={true} className='navLink'>About</Link>

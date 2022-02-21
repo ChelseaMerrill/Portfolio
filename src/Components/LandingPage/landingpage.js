@@ -5,7 +5,7 @@ import './landingPage.css';
 
 function Landing (){
         return(
-            <div className='typist page'> 
+            <div className='typist page' id='landing'> 
                 <Typist>
                     <h1>Hello,</h1>  
                     <Typist.Delay ms={2000}/>     

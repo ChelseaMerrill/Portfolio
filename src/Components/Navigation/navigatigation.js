@@ -9,7 +9,7 @@ function Navigation() {
     <div className='navBar'>
       <img src={ProfilePic} alt=''/>
       <div className='navLinks'>
-        <Link to='/' className='navLink'> Home</Link>
+        <Link to='landing' className='navLink'> Home</Link>
         <Link to='about' smooth={true} className='navLink'>About</Link>
         <Link to='projects' smooth={true} className='navLink'>Projects</Link>
         <Link to='contact' smooth={true} className='navLink'>Contact</Link>

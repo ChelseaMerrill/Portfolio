@@ -7,6 +7,10 @@
   margin: auto;
   margin-bottom: 20px;
   text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  display: flex;
+}
+.projectsHeading h1{
+  margin:auto
 }
 
 .projects{
@@ -15,7 +19,7 @@
 }
 
 .projectCard{
-  margin: 60px;
+  margin: 100px;
   border: 3px solid white;
   background-color: transparent;
   border-radius: 7px;
@@ -29,7 +33,6 @@
 .projectCard:hover{
   transition: transform .7s;
   transform: scaleY(1.2);
-  margin-right: 60px;
   box-shadow:
     0 0 60px 30px #fff,
     0 0 100px 60px #f0f,

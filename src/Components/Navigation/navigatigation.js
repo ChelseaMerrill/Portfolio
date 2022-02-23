@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-scroll";
+import { AiOutlineMenu, AiOutlineMenuUnfold } from 'react-icons/ai';
 import ProfilePic from './astronaut.jpg';
 
 import './navigation.css';
 
 function Navigation() {
   return (
-    <div className='navBar'>
+    <nav className='navBar'>
       <img src={ProfilePic} alt=''/>
       <div className='navLinks'>
         <Link to='landing' className='navLink'> Home</Link>
@@ -15,11 +16,9 @@ function Navigation() {
         <Link to='contact' smooth={true} className='navLink'>Contact</Link>
         <Link to='resume' smooth={true} className='navLink'>Resume</Link>
     </div>
-  </div >
+  </nav >
+
   )
 };
-
-
-
 
 export default Navigation

@@ -36,5 +36,38 @@
     font-size: 2em;
 }
 
+@media (max-width: 850px){
+  .navBar{
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100px;
+  }
+  .navLinks{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3em;
+  }
+  .navLink:hover{
+    transform: none;
+    font-size: 1.3em;
+    background-color: rgb(14, 17, 17);;
+    
+  }
+  .navBar img{
+    height: 0;
+    width: 0;
+  }
+}
+
+@media (max-width: 550px){
+  .navLinks{
+    font-size: .8em;
+  }
+  .navBar{
+    height: 75px;
+  }
+}
  
 

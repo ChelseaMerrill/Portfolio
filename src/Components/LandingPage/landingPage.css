@@ -6,14 +6,47 @@
 
   .typist h1{
     font-size: 8em;
+    margin-top: 80px;
   }
   
   .typist h3{
-    font-size: 32px;
     margin: 40px;
     font-size: 3em;
   }
 
   .typingText{
-    margin-top: 80px;
+    margin-top: 40px;
+  }
+
+  @media (max-width: 850px){
+    .typist h1{
+      font-size: 4em;
+      margin-top: 0px;
+    }
+    
+    .typist h3{
+      margin: 40px;
+      font-size: 2em;
+    }
+  
+    .typingText{
+      margin-top: 150px;
+    }
+
+  }
+
+  @media (max-width: 550px){
+    .typist h1{
+      font-size: 3em;
+
+    }
+    
+    .typist h3{
+      font-size: 1.3em;
+    }
+  
+    .typingText{
+      margin-top: 150px;
+    }
+
   }
